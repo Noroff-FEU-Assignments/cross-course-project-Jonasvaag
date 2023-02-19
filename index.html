@@ -8,7 +8,13 @@
     <p>Welcome to my first website.</p>
     <h2>Web Security</h2>
     <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">[Yep, i'm going to put my answer here in a minute, or maybe later]</p>
+    <p id="web-security-answer">
+        To secure a website from security attacks such as cross site scripting (XSS), Cross-site request forgery and SQL Injections, make sure to minimize risk of having data that can be used for running an injected code during input sanitization. By using a sanitizing program from a third-party, you can find HTML codes that are “weak links” and make them secure for hackers to infiltrate with injected codes.</p>
+
+We need to make sure that data sent between users and servers are encrypted, so it becomes more difficult for hackers to come through. That means using a secured protocol like HTTPS, and not HTTP for our web server.
+
+<p>On the client side, it’s important to demand strong passwords (not short easy-to-guess type of passwords with four characters), and make sure that the password needs to be changed regularly. Also, it needs to be a timeout for the login session If the client is inactive for a time, so the account doesn’t stay logged in when the client has left the website. To secure the login further, a two-factor authentication can be used. Then it will be hard for other than the client to log in.</p>
+</p>
   </body>
 </html>
 
